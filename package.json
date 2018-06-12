@@ -13,5 +13,20 @@
     "05": "cd 05-redux-immutable-fetch && yarn && yarn prepush",
     "06": "cd 06-react-router-ssr-helmet && yarn && yarn prepush",
     "07": "cd 07-socket-io && yarn && yarn prepush"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "nodemon": "^1.17.5",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-hot-loader": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-flow-react-proptypes": "^24.0.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.12.0",
+    "webpack-dev-server": "^3.1.4"
   }
 }
